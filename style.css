@@ -1,0 +1,336 @@
+:root {
+    --primary-color: #BE8930;
+    --secondary-color: rgb(66, 62, 62);
+    --primary-white-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100vw;
+    height: auto;
+    background-color: var(--primary-color);
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.main .nav {
+    width: 100%;
+    height: 20vh;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+
+.main .nav>img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.main .nav>.clg-name {
+    color: var(--primary-white-color);
+    font-size: 42px;
+}
+
+.main .announce-date {
+    width: 100%;
+    /* height: 50vh; */
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.main .announce-date .present-s {
+    color: var(--primary-white-color);
+    font-size: 32px;
+}
+
+.main .announce-date .april {
+    color: var(--primary-color);
+    font-size: 35px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+.main .announce-date .sub-txt {
+    color: var(--primary-white-color);
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.main .announce-date .impact-word {
+    color: var(--primary-white-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main .announce-date .sponser {
+    color: var(--primary-white-color);
+    font-size: 27px;
+    margin-top: 30px;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main .announce-date .date {
+    color: var(--primary-white-color);
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.main .important-date-box {
+    width: 100%;
+    height: auto;
+    background-color: rgb(25, 47, 65);
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.main .important-date-box .left-box {
+    width: 45%;
+    /* background-color: aliceblue; */
+    padding: 10px;
+}
+
+.main .important-date-box .left-box .heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-white-color);
+}
+
+.main .important-date-box .left-box ul>li {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.main .important-date-box .left-box ul>li>span {
+    color: rgb(212, 185, 47);
+}
+
+.main .important-date-box .right-box {
+    width: 60%;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.main .important-date-box .right-box .heading {
+    color: var(--primary-white-color);
+    font-size: 20px;
+}
+
+.main .important-date-box .right-box .box {
+    width: 60%;
+    height: 90%;
+    /* background-color: #BE8930; */
+    display: flex;
+}
+
+.main .important-date-box .right-box .box .left {
+    width: 50%;
+    height: auto;
+    /* background-color: aliceblue; */
+}
+
+.main .important-date-box .right-box .box .left ul li {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.main .important-date-box .right-box .box .right {
+    width: 50%;
+    height: auto;
+    /* background-color: aliceblue; */
+}
+
+.main .important-date-box .right-box .box .right ul li {
+    color: var(--primary-white-color);
+    text-decoration: none;
+    list-style: none;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.main .prices {
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .prices .box {
+    width: calc(100% / 3);
+    height: 100%;
+    padding: 20px;
+}
+
+.main .prices .box .heading {
+    color: var(--primary-white-color);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.main .prices .box ul li {
+    color: var(--primary-white-color);
+    font-size: 18px;
+    margin-top: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main .prices .box img {
+    width: 170px;
+    border-radius: 5px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+
+}
+
+a {
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+}
+
+
+@keyframes effect {
+
+    0% {
+        background: linear-gradient(#fcf304, #b26b19);
+        -webkit-background-clip: text;
+    }
+    100% {
+
+        background: linear-gradient(#ff5500, #92351b);
+        -webkit-background-clip: text;
+    }
+}
+
+.main .contact{
+    width: 100%;
+    height: auto;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+}
+.main .contact .box{
+    width: calc(100% / 3);
+    height: 100%;
+}
+.main .contact .box .heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-white-color);
+}
+.main .contact .box ul li{
+    color: var(--primary-white-color);
+    font-size: 18px;
+    margin-top: 5px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+i{
+    font-size: 22px;
+    padding: 5px;
+    background-color: #b26b19;
+    border-radius: 50%;
+}
+
+.main .footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(25, 47, 65);
+    color: var(--primary-white-color);
+    padding: 20px;
+}
+.main .footer .clg-name{
+    font-size: 32px;
+}
+.main .footer .address{
+    font-size: 25px;
+}
+.main .footer .nac{
+    font-size: 22px;
+}
+.main .footer .copy{
+    color: #BE8930;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body::-webkit-scrollbar {
+    display: none;
+}
